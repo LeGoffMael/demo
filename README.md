@@ -1,6 +1,6 @@
 ## Try it
 
-[https://my-json-server.typicode.com/legoffmael/demo](https://my-json-server.typicode.com/legoffmael/demo)
+[https://my-json-server.typicode.com/legoffmael/touki-fakedata](https://my-json-server.typicode.com/legoffmael/touki-fakedata)
 
 ## Use your own data
 
