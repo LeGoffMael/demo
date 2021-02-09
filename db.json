@@ -1,14 +1,268 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "travels": [
+    {
+        "id": 1,
+        "title": "Europe RoadTrip",
+        "travelImagePath": "https://source.unsplash.com/1600x900/?voyage,visit,trip,europe",
+        "users": [
+          {
+              "userName": "lois.moreno",
+              "firstName": "Lois",
+              "lastName": "Moreno",
+              "profileImagePath": "https://randomuser.me/api/portraits/women/70.jpg"
+          }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "USA east cost roadtrip",
+        "travelImagePath": "https://source.unsplash.com/1600x900/?voyage,visit,trip,america",
+        "users": [
+          {
+              "userName": "kenzi.thomas",
+              "firstName": "Kenzi",
+              "lastName": "Thomas",
+              "profileImagePath": "https://randomuser.me/api/portraits/women/13.jpg"
+          }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Silk Road trip",
+        "travelImagePath": "https://source.unsplash.com/1600x900/?voyage,visit,trip,china",
+        "users": [
+          {
+              "userName": "tracy.crawford",
+              "firstName": "Tracy",
+              "lastName": "Crawford",
+              "profileImagePath": "https://randomuser.me/api/portraits/women/83.jpg"
+          }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "South Korea/Japan trip",
+        "travelImagePath": "https://source.unsplash.com/1600x900/?voyage,visit,trip,korea,japan",
+        "users": [
+          {
+              "userName": "misty.moreno",
+              "firstName": "Misty",
+              "lastName": "Moreno",
+              "profileImagePath": "https://randomuser.me/api/portraits/women/56.jpg"
+          },
+          {
+                "userName": "lois.moreno",
+                "firstName": "Lois",
+                "lastName": "Moreno",
+                "profileImagePath": "https://randomuser.me/api/portraits/women/70.jpg"
+            }
+        ]
+    }
+],
+  "steps": [
+    {
+      "id": 1,
+      "city": "Paris",
+      "country": "France",
+      "travelId": 1,
+      "startDate": "2019-12-10",
+      "endDate": "2019-12-14",
+      "geo": {
+        "lat": 48.8534100,
+        "long": 2.3488000
+      }
+    },
+    {
+      "id": 2,
+      "city": "Roma",
+      "country": "Italy",
+      "travelId": 1,
+      "startDate": "2019-12-14",
+      "endDate": "2019-12-18",
+      "geo": {
+        "lat": 48.8534100,
+        "long": 2.3488000
+      }
+    },
+    {
+      "id": 3,
+      "city": "Berlin",
+      "country": "Germany",
+      "travelId": 1,
+      "startDate": "2019-12-18",
+      "endDate": "2019-12-22",
+      "geo": {
+        "lat": 52.520008,
+        "long": 13.404954
+      }
+    },
+    {
+      "id": 4,
+      "city": "London",
+      "country": "England",
+      "travelId": 1,
+      "startDate": "2019-12-22",
+      "endDate": "2019-12-26",
+      "geo": {
+        "lat": 51.507351,
+        "long": -0.127758
+      }
+    },
+    {
+      "id": 5,
+      "city": "New-York",
+      "country": "United States",
+      "travelId": 2,
+      "startDate": "2020-01-06",
+      "endDate": "2020-01-14",
+      "geo": {
+        "lat": 40.712776,
+        "long": -74.005974
+      }
+    },
+    {
+      "id": 6,
+      "city": "Philadelphia",
+      "country": "United States",
+      "travelId": 2,
+      "startDate": "2020-01-14",
+      "endDate": "2020-01-16",
+      "geo": {
+        "lat": 39.952583,
+        "long": -75.165222
+      }
+    },
+    {
+      "id": 7,
+      "city": "Washington, DC",
+      "country": "United States",
+      "travelId": 2,
+      "startDate": "2020-01-16",
+      "endDate": "2020-01-18",
+      "geo": {
+        "lat": 38.907192,
+        "long": -77.036873
+      }
+    },
+    {
+      "id": 8,
+      "city": "Kashgar",
+      "country": "China",
+      "travelId": 3,
+      "startDate": "2020-04-12",
+      "endDate": "2020-01-14",
+      "geo": {
+        "lat": 39.4001,
+        "long": 76.0501
+      }
+    },
+    {
+      "id": 9,
+      "city": "Turpan",
+      "country": "China",
+      "travelId": 3,
+      "startDate": "2020-01-15",
+      "endDate": "2020-01-17",
+      "geo": {
+        "lat": 42.8699,
+        "long": 89.1678
+      }
+    },
+    {
+      "id": 10,
+      "city": "Dunhuang",
+      "country": "China",
+      "travelId": 3,
+      "startDate": "2020-01-18",
+      "endDate": "2020-01-20",
+      "geo": {
+        "lat": 40.0844,
+        "long": 94.6664
+      }
+    },
+    {
+      "id": 11,
+      "city": "Jiayuguan",
+      "country": "China",
+      "travelId": 3,
+      "startDate": "2020-01-20",
+      "endDate": "2020-01-22",
+      "geo": {
+        "lat": 39.7732,
+        "long": 98.2882
+      }
+    },
+    {
+      "id": 12,
+      "city": "Xi'an",
+      "country": "China",
+      "travelId": 3,
+      "startDate": "2020-01-23",
+      "endDate": "2020-01-26",
+      "geo": {
+        "lat": 34.1777,
+        "long": 109.3881
+      }
+    },
+    {
+      "id": 13,
+      "city": "Seoul",
+      "country": "South Korea",
+      "travelId": 4,
+      "startDate": "2020-01-12",
+      "endDate": "2020-01-15",
+      "geo": {
+        "lat": 37.4967,
+        "long": 127.4167
+      }
+    },
+    {
+      "id": 14,
+      "city": "Busan",
+      "country": "South Korea",
+      "travelId": 4,
+      "startDate": "2020-01-15",
+      "endDate": "2020-01-17",
+      "geo": {
+        "lat": 35.03
+        "long": 129.0317
+      }
+    },
+    {
+      "id": 15,
+      "city": "Tokyo",
+      "country": "Japan",
+      "travelId": 4,
+      "startDate": "2020-01-17",
+      "endDate": "2020-01-21",
+      "geo": {
+        "lat": 35.6664,
+        "long": 139.7718
+      }
+    },
+    {
+      "id": 16,
+      "city": "Kyoto",
+      "country": "Japan",
+      "travelId": 4,
+      "startDate": "2020-01-21",
+      "endDate": "2020-01-23",
+      "geo": {
+        "lat": 35.011667,
+        "long": 135.768333
+      }
+    },
+    {
+      "id": 17,
+      "city": "Osaka",
+      "country": "Japan",
+      "travelId": 4,
+      "startDate": "2020-01-23",
+      "endDate": "2020-01-25",
+      "geo": {
+        "lat": 34.693889,
+        "long": 135.502222
+      }
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
 }
